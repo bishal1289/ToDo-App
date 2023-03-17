@@ -1,0 +1,45 @@
+#txt {
+    border: none;
+    height:100px;
+    width:100%;
+    
+  }
+  #maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  #list {
+    list-style-type: none;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: cursive;
+  }
+  #wrap{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    width:50%;
+    font-family: cursive;
+    font-size: 20px;
+  }
+
+ 
+  
+  .completed {
+    text-decoration: line-through;
+    background-color: #8ec796;
+  }
+
+ul li:nth-child(odd) {
+background: #c3d2d9;
+}
+
+#ulli{
+width: 50%;
+padding-left:20% ;
+
+}
